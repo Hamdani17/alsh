@@ -66,8 +66,8 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
     if await cancelled(api_id_msg):
         return
     if api_id_msg.text == "/skip":
-        api_id = config.API_ID
-        api_hash = config.API_HASH
+        api_id = "20952433"
+        api_hash = "50214647e873d2a67e9b64b1c8d8faf5"
     else:
         try:
             api_id = int(api_id_msg.text)
