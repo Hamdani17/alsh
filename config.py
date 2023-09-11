@@ -1,13 +1,12 @@
-from os import getenv
 from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = "20952433"
+API_HASH = "50214647e873d2a67e9b64b1c8d8faf5"
 
-BOT_TOKEN = getenv("BOT_TOKEN")
-OWNER_ID = int(getenv("OWNER_ID"))
+BOT_TOKEN = "6598709379:AAEVBX89n2vI2Ijv88sNQpMOZUbaFcyE0GU"
+OWNER_ID = [929366169, 6610195550]
 
-MONGO_DB_URI = getenv("MONGO_DB_URI")
-MUST_JOIN = getenv("MUST_JOIN", None)
+MONGO_DB_URI = "MONGO_DB_URI"
+MUST_JOIN = "database_6"
